@@ -1,0 +1,29 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-265,-69",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port DLMB -pg 1 -lvl 0 -x -10 -y 50 -defaultsOSRD
+preplace port ILMB -pg 1 -lvl 0 -x -10 -y 220 -defaultsOSRD
+preplace port LMB_Clk -pg 1 -lvl 0 -x -10 -y 70 -defaultsOSRD
+preplace port SYS_Rst -pg 1 -lvl 0 -x -10 -y 90 -defaultsOSRD
+preplace inst dlmb_v10 -pg 1 -lvl 1 -x 140 -y 70 -defaultsOSRD
+preplace inst ilmb_v10 -pg 1 -lvl 1 -x 140 -y 240 -defaultsOSRD
+preplace inst dlmb_bram_if_cntlr -pg 1 -lvl 2 -x 390 -y 90 -defaultsOSRD
+preplace inst ilmb_bram_if_cntlr -pg 1 -lvl 2 -x 390 -y 260 -defaultsOSRD
+preplace inst lmb_bram -pg 1 -lvl 3 -x 640 -y 100 -defaultsOSRD
+preplace netloc microblaze_0_Clk 1 0 2 20 160 260
+preplace netloc SYS_Rst_1 1 0 2 10 150 270
+preplace netloc microblaze_0_dlmb_cntlr 1 2 1 N 90
+preplace netloc microblaze_0_ilmb_cntlr 1 2 1 510 110n
+preplace netloc microblaze_0_ilmb_bus 1 1 1 N 240
+preplace netloc microblaze_0_dlmb_bus 1 1 1 N 70
+preplace netloc microblaze_0_ilmb 1 0 1 NJ 220
+preplace netloc microblaze_0_dlmb 1 0 1 NJ 50
+levelinfo -pg 1 -10 140 390 640 780
+pagesize -pg 1 -db -bbox -sgen -120 -10 780 340
+"
+}
+0
