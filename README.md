@@ -12,3 +12,7 @@ We implement the NVMe controller in a Xilinx KCU105 FPGA board, which is connect
 # Project Setup
 1. Target FPGA device: Xilinx KCU105 Board
 2. Development tools: Vivado 2019.2, Vitis 2019.2
+
+# Publications
+Y. Qiu, W. Yin and L. Wang, "A High-Performance and Scalable NVMe Controller Featuring Hardware Acceleration," in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, doi: 10.1109/TCAD.2021.3088784.
+
